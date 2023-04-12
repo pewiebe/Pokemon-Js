@@ -198,7 +198,7 @@ class Sprite {
               x: this.position.x + movementDistance * 2,
               duration: 0.1,
               onComplete: () => {
-                // Enemy actually gets hit
+                // O inimigo realmente é atingido
                 audio.tackleHit.play()
                 gsap.to(healthBar, {
                   width: recipient.health + '%'
