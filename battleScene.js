@@ -47,7 +47,7 @@ function initBattle() {
           draggle.faint()
         })
         queue.push(() => {
-          // fade back to black
+          // desaparecer de volta ao preto
           gsap.to('#overlappingDiv', {
             opacity: 1,
             onComplete: () => {
